@@ -1,0 +1,44 @@
+.container-fluid {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
+    height: 844px;
+}
+.carousel {
+    /* height: 300px; */
+    /* width: 70%; */
+    background-color: white;
+    top: 10%
+}
+
+i {
+    color: orange;
+    font-size: 30px;
+}
+
+.carousel-item {
+    padding-top: 50px;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.author {
+    margin-left: 120px;
+    color: gray;
+}
+
+@media  (min-width: 768px) {
+    .carousel {
+        height: 300px;
+        width: 70%;
+        top: 25%
+    }
+    .carousel-item {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
